@@ -1,0 +1,85 @@
+.signup {
+  display: flex;
+}
+
+.signup__left {
+  flex: 1;
+}
+
+.signup__right {
+  flex: 1;
+}
+
+.signup__rightContainer {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.signup__rightTwitterLogo {
+  color: #4ea0ec;
+  font-size: 40px;
+}
+
+.signup__rightText {
+  color: #7f7d7d;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.signup__rightForm {
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.signup__dobField {
+  font-size: 13px;
+  margin-bottom: 4px;
+  align-content: flex-start;
+  display: flex;
+  width: 355px;
+  padding-left: 30px;
+}
+
+.signup__datepicker {
+  width: 380px;
+  height: 39px;
+  border: none;
+  background-color: #e0ebeb;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+
+.signup__button {
+  background-color: #4ea0ec;
+  height: 39px;
+  border: none;
+  border-radius: 20px;
+  padding: 3px;
+  color: aliceblue;
+  width: 380px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.signup__alertMsg {
+  text-align: center;
+  font-size: 13px;
+  color: #7f7d7d;
+  align-self: center;
+  margin-top: 7px;
+}
+
+.signup__loadingMsg {
+  margin-left: 30px;
+}

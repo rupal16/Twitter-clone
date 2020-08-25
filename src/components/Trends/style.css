@@ -1,0 +1,25 @@
+.t-header {
+  display: flex;
+  flex-direction: row;
+}
+.trends {
+  height: 250px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 25px;
+}
+.t-btn {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.t-text {
+  color: #2ab8db;
+  font-size: 14px;
+  font-weight: bold;
+}
+.t-change {
+  color: #2ab8db;
+  font-size: 12px;
+  margin-top: 5px;
+}

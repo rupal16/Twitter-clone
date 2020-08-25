@@ -1,0 +1,71 @@
+.suggestions {
+  background-color: white;
+  height: 316px;
+  margin-top: 25px;
+}
+.s-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.li {
+  margin-top: 14px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #2ab8db;
+}
+.pointer {
+  margin-left: 3px;
+  font-size: 5px;
+}
+.h3 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+.follow-btn {
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid #2ab8db;
+  background-color: white;
+  color: #2ab8db;
+  font-size: 13px;
+}
+.name-det {
+  display: flex;
+  flex-direction: row;
+}
+.name-btn {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+}
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.close {
+  color: #657786;
+}
+.s-name {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.s-userName {
+  margin: 0px;
+  color: #657786;
+  font-size: 13px;
+}

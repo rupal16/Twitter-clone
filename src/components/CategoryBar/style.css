@@ -1,0 +1,48 @@
+.cb-row {
+  height: 100px;
+}
+.pro-pic {
+  height: 170px;
+  width: 100%;
+}
+.cb-col {
+  height: 60px;
+}
+.cb-middle {
+  display: flex;
+}
+.cb-middle-item {
+  flex: 1;
+  text-align: center;
+}
+
+.cat-bar-btn-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 13px;
+}
+.cat-btn {
+  background-color: white;
+  border: 1px solid #2ab8db;
+  color: #2ab8db;
+  width: 102px;
+  height: 34px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.cat-bar-icon {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 400px;
+}
+
+@media only screen and (max-width: 750px) {
+  .cat-right {
+    display: none;
+  }
+}

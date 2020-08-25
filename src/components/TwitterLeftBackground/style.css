@@ -1,0 +1,20 @@
+.background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4ea0ec;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background__content {
+  color: white;
+  line-height: 50px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px #7f7d7d;
+}

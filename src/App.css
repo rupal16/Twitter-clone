@@ -1,0 +1,48 @@
+body {
+  overflow: hidden;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.dashboard__layout {
+  overflow-y: scroll;
+}
+
+.dashboard__banner {
+  padding: 0;
+}
+
+.dashboard__categoryBar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: white;
+  justify-content: center;
+  margin: 0;
+  z-index: 107;
+  top: 54px;
+  background-color: white;
+}
+
+.dashboard__categoryBarContainer {
+  padding: 0px;
+}
+
+.dashboard__rightLayout {
+  position: sticky;
+  top: 114px;
+}
+
+@media only screen and (max-width: 600px) {
+  .dashboard__lowerLayoutContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #e6ecf0;
+  }
+}

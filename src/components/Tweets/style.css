@@ -1,0 +1,162 @@
+.tweet-header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.user-details {
+  display: flex;
+}
+.tweet-header-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 95%;
+  padding-left: 10px;
+}
+
+.tweets {
+  background-color: white;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.header-bar {
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid gray;
+  position: sticky;
+  top: 114px;
+  background-color: white;
+}
+.tw-btn,
+.tm-btn,
+.tr-btn {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+.rt-top-wrap {
+  width: 520px;
+  padding: 10px;
+  margin-left: 0px;
+}
+.rt-name {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+}
+.tr-btn {
+  color: #2ab8db;
+}
+.tm-btn {
+  color: #2ab8db;
+}
+.tweet-container {
+  border-bottom: 1px solid gray;
+  background-color: white;
+  padding-right: 15px;
+}
+.tweet-body {
+  display: flex;
+  justify-content: center;
+}
+.image-file {
+  height: 204px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 8px 8px 0 0;
+}
+.image-file-lower {
+  height: 120px;
+  border: 1px solid gray;
+  border-radius: 0 0 8px 8px;
+}
+.user-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.tweet-icon {
+  color: gray;
+}
+.tt-name {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 7px;
+  margin-bottom: 0px;
+}
+.tt-userName {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.rt-userName {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.tt-date {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.rt-date {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.rt-msg {
+  font-size: 14px;
+  margin-left: 15px;
+}
+.t-icons {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 0px;
+  margin-left: 15px;
+}
+.translate {
+  margin-bottom: 0px;
+}
+.images {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+}
+.tweet-info {
+  width: 500px;
+}
+.retweet-container {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  border-bottom: 1px solid gray;
+}
+.user-img {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.tweet-timestamp {
+  color: gray;
+  font-weight: 300;
+  font-size: 13px;
+}
